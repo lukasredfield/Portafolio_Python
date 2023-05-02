@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        {% load static %}
+
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Lucas Agustín Guido</title>
+        <link rel="icon" type="image/x-icon" href="{% static 'assets/img/logo_python.PNG' %}" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="{% static 'css/styles.css' %}" rel="stylesheet" />
+        <link href="{% static 'css/style.css' %}" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav style='background-color: white;' class="navbar navbar-expand-lg navbar-light fixed-top shadow-sm" id="mainNav">
+            <div class="container px-5">
+                <div style="font-family: Roboto;" class="d-flex justify-content-between flex-row-reverse align-items-center flex-wrap" >
+                    <img src="{% static 'assets/img/logo_python.jpg' %}" width="90" height="80" alt="" />
+                </div>
+                <h2 style="font-family: Lato; margin-left: 10px; " >Lucas Agustín Guido</h2>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="bi-list"></i>
+                </button><br><br>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto me-4 my-3 my-lg-0">
+                        <li class="nav-item"><a class="nav-link me-lg-3" target="_blank" href="https://www.linkedin.com/in/lucas-agust%C3%ADn-guido-5a557b164/">Linkedin</a></li>
+                        <li class="nav-item"><a class="nav-link me-lg-3" target="_blank" href="https://github.com/lukasredfield">GitHub</a></li>
+                    </ul>
+                    <button class="btn btn-primary rounded-pill px-3 mb-2 mb-lg-0" data-bs-toggle="modal" data-bs-target="#feedbackModal">
+                        <span class="d-flex align-items-center">
+                            <i class="bi-chat-text-fill me-2"></i>
+                            <a style="color: white; text-decoration:none;" class="small" href="https://drive.google.com/u/0/uc?id=1JDvq662Twdp24LnECPZ7yWZWWY8k4YWk&export=download">Descargar CV</a>
+                        </span>
+                    </button>
+                </div>
+            </div>
+        </nav><br><br>
+        <!-- Header-->
+        <header>
+            <!-- This div is intentionally blank. It creates the transparent black overlay over the video which you can modify in the CSS -->
+            <div class="overlay"></div>
+        
+            <!-- The HTML5 video element that will create the background video on the header -->
+            <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop" style="object-fit: cover;">
+                <source src="{% static 'assets/img/python_code3.mp4' %}" type="video/mp4">
+            </video>
+        
+            <!-- The header content -->
+            <div class="container h-100">
+                <div class="d-flex h-100 text-center align-items-center">
+                    <div class="w-100 text-white">
+                        <h1 style="color: aliceblue; font-family: 'Flux', sans-serif;" class="display-3">Python Developer</h1>
+                        <h1 style="font-family: 'Flux', sans-serif; color: aliceblue;" class="display-3">Full stack</h1>
+                    </div>
+                </div>
+            </div>
+        </header>
+        
+        <style>
+            /* Show the video in any screen size */
+            video {
+                display: block;
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+            }
+        
+            /* This is optional: add a semi-transparent overlay over the video 
+            .overlay (Para oscurecer el video y resaltar las palabras que estan encima) {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background-color: rgba(0, 0, 0, 0.5);    
+            }    */
+        </style>
+        
+          
+          
+          
+          
+          <div>
+            <img src="{% static 'assets/img/print_hello_word1.jpg' %}" alt="">
+          </div>
+          
+          <br><br>
+        
+    
+        <section id="scroll">
+            <div class="container px-5">
+                <div class="row gx-5 align-items-center">
+                    <div class="col-lg-6 order-lg-2">
+                        <div class="p-5"><a href="https://shoppingvirtual.up.railway.app/" target="_blank" ><img class="img-fluid rounded-circle" src="{% static 'assets/img/01.jpg' %}" alt="..." /></a></div>
+                    </div>
+                    <div class="col-lg-6 order-lg-1">
+                        <div class="p-5">
+                            <h2 class="display-4">Ecommerce</h2>
+                            <p>Página web realizada con el framework de desarrollo Web Django. En ella se puede encontrar un Login de Usuario, Su apartado de servicios, Su tienda con productos con un carrito de compras y un formulario de contacto para envío de e-mails.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Content section 2-->
+        <section>
+            <div class="container px-5">
+                <div class="row gx-5 align-items-center">
+                    <div class="col-lg-6">
+                        <div class="p-5"><a href="https://webjec.up.railway.app/" target="_blank" ><img class="img-fluid rounded-circle" src="{% static 'assets/img/02.jpg' %}" alt="..." /></a></div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="p-5">
+                            <h2 class="display-4">Landing Page</h2>
+                            <p>Página web realizada con el framework de desarrollo Web Django. Web de temáticas varias para uso informativo, didáctico y/o comercial.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="scroll">
+            <div class="container px-5">
+                <div class="row gx-5 align-items-center">
+                    <div class="col-lg-6 order-lg-2">
+                        <div class="p-5"><a href="https://api-restframework.up.railway.app/" target="_blank" ><img class="img-fluid rounded-circle" src="{% static 'assets/img/03.jpg' %}" alt="..." /></a></div>
+                    </div>
+                    <div class="col-lg-6 order-lg-1">
+                        <div class="p-5">
+                            <h2 class="display-4">API Rest</h2>
+                            <p>API Rest realizada con el framework de desarrollo de Apis Django RestFramework. En ella se puede encontrar una aplicación de reservas de hotel, en el cual podemos crear un cliente nuevo, ver cuartos disponibles y sus características y hacer una reserva con el número de "id" del cliente y "número" de cuarto escogido.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Content section 3-->
+        <section class="testimonial">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-6 p-0">
+                        <div class="testimonial__text">
+                            <span class="icon_quotations"></span>
+                            <p>“Hola, mi nombre es Lucas Agustín Guido, tengo 30 años y vivo actualmente en la ciudad de Florencio Varela, Buenos Aires, Argentina. Deseo tener una oportunidad laboral para mostrar los frutos de tanto estudio, esfuerzo y dedicación. Poder expandir y desplegar mis conocimientos en el Desarrollo de Software. Quisiera tener la chance de poder demostrar cuánto amo y respeto este hermoso oficio. Aprender de mis superiores y colegas informáticos para seguir creciendo personal y profesionalmente. Espero en el futuro tener la oportunidad de concretar una entrevista y validar mi valor como candidato, de ser seleccionado, sepan que incorporarán a un desarrollador autodidacta, proactivo, abierto a la enseñanza y la corrección. Desde ya muchas gracias y cualquier consulta que tengan estoy a su disposición. Saludos!”
+                            </p>
+                            <div class="testimonial__author">
+                                <div class="testimonial__author__pic">
+                                    <img src="{% static 'assets/img/04.jpg' %}" alt="">
+                                </div>
+                                <div class="testimonial__author__text">
+                                    <h5>Lucas Agustín Guido</h5>
+                                    <p>Desarrollador Python</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 p-0">
+                        <div class="testimonial__pic set-bg" data-setbg="{% static 'assets/img/pro.PNG' %}"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        
+
+        <!-- Footer-->
+        
+        <footer class="py-5 bg-black">
+            <div class="container px-5"><p class="m-0 text-center text-white small">Copyright &copy; Your Website 2022</p></div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
